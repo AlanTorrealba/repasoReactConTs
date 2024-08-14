@@ -23,7 +23,7 @@ export const LoginPage = () => {
       {authStatus === "authenticated" ? (
         <div>Autenticado como {JSON.stringify(authUser, null, 2)}</div>
       ) : (
-        <div>No Autenticado</div>
+        <div>No Autenticado.</div>
       )}
 
       {authStatus === "authenticated" ? (
