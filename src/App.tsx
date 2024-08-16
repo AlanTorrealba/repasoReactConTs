@@ -5,7 +5,7 @@ import {
   //  ObjectLiterals,
   // BasicFunction,
 } from "./typescript";
-import { CounterWithHook, LoginPage } from "./components";
+import { CounterWithHook, LoginPage, UsersPage } from "./components";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
       {/* <BasicFunction /> */}
       {/* <Counter/> */}
       {/* <CounterWithHook/> */}
-      <LoginPage/>
+      {/* <LoginPage/> */}
+      <UsersPage/>
     </main>
   );
 }
