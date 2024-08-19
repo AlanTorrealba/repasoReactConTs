@@ -6,6 +6,7 @@ import {
   // BasicFunction,
 } from "./typescript";
 import { CounterWithHook, LoginPage, UsersPage } from "./components";
+import { FormPage } from "./components/FormPage";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Counter/> */}
       {/* <CounterWithHook/> */}
       {/* <LoginPage/> */}
-      <UsersPage/>
+      {/* <UsersPage/> */}
+      <FormPage/>
     </main>
   );
 }
